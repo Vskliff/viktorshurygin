@@ -3,7 +3,7 @@ on:
   [push]
 jobs:
   scrape:
-    runs-on: Windows 10
+    runs-on: ubuntu 22.04
     steps:
       - name: Checking out repo
         uses: actions/checkout@v3
