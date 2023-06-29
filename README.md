@@ -1,23 +1,20 @@
 # viktorshurygin
-<<<<<<< HEAD
-[![Run Selenium On GitHub Action](https://github.com/Vskliff/viktorshurygin/blob/main/test_site1.py)]
-=======
-[![Run Selenium On GitHub Action]([(https://github.com/berpress/delete_tests/actions/workflows/Selenium-Action_Template.yaml/badge.svg)](https://github.com/Vskliff/viktorshurygin/blob/main/test_site1.py)](https://github.com/Vskliff/viktorshurygin/blob/main/.github/workflows/selenium_action.yml))]
->>>>>>> 305145c21ab5591849b66f187d7a8934af4a89a6
+
+[![Run Selenium On GitHub Action]([https://github.com/Vskliff/viktorshurygin/blob/main/test_site1.py](https://github.com/Vskliff/viktorshurygin/blob/main/.github/workflows/selenium_action.yml))]
+
+
 # run_tests
 _test_run_selenium
 
 
 ## authorization
 
-We use Python 3.9 and Selenium 
+We use Python 3.11.4 and Selenium 
 
 Run test with command 
 
 ```python
 run
-<<<<<<< HEAD
+
 ```
-=======
-```
->>>>>>> 305145c21ab5591849b66f187d7a8934af4a89a6
+
