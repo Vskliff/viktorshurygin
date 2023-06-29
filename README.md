@@ -9,7 +9,7 @@ _test_run_selenium
 
 ## authorization
 
-We use Python 3.11.4 and Selenium 
+We use Python 3.9 and Selenium 
 
 Run test with command 
 
