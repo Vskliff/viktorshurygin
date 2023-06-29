@@ -1,1 +1,7 @@
-https://github.com/Vskliff/viktorshurygin/blob/main/test_site1.py
+#https://github.com/Vskliff/viktorshurygin/blob/main/test_site1.py
+language:  Python 3.11.4
+install:
+  - requirements.txt
+script:
+  - python test_site1.py
+
