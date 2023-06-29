@@ -1,16 +1,15 @@
 # viktorshurygin
-[![Run Selenium On GitHub Action](https://github.com/Vskliff/delete_tests/actions/workflows/Selenium_Action.yaml/badge.svg)](https://github.com/Vskliff/delete_tests/actions/workflows/Selenium_Action.yaml)
+[![Run Selenium On GitHub Action](https://github.com/Vskliff/viktorshurygin/blob/main/test_site1.py)]
+# run_tests
+_test_run_selenium
 
-# delete_tests
-_test_delete_ui_selenium
 
-
-## Test food portal
+## authorization
 
 We use Python 3.9 and Selenium 
 
 Run test with command 
 
 ```python
-...
+run
 ```

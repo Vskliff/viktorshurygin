@@ -3,30 +3,28 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 1. окрыть главную страницу
-# 2. открыть страницу логин
-# 3. заполнить поле email
-# 4. заполнить поле password
-# 5. нажать кнопку start
 
-URL = 'https://berpress.github.io/react-shop/'
-LOGIN = 'test@test.com'
-PASSWORD = 'Password1'
+# 1. открыть страницу авторизации
+# 2. заполнить поле логин
+# 3. заполнить поле password
+# 4. нажать кнопку Login
+
+URL = 'https://www.saucedemo.com/'
+LOGIN = 'standard_user'
+PASSWORD = 'secret_sauce'
 
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 # 1
 driver.get(URL)
-# 2
-login_page_button = driver.find_element(By.ID, "login-link")
-login_page_button.click()
-# 3, 4, 5
-input_login = driver.find_element(By.ID, "name")
+
+# 2, 3, 4
+input_login = driver.find_element(By.ID, "user-name")
 input_password = driver.find_element(By.ID, "password")
-start_button = driver.find_element(By.ID, "register")
+login_button = driver.find_element(By.ID, "login-button")
 
 input_login.send_keys(LOGIN)
 input_password.send_keys(PASSWORD)
-start_button.click()
+login_button.click()
 pass
