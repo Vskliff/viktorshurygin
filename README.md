@@ -2,7 +2,7 @@
 
 
 
-# run_tests
+# auto_tests
 _test_run_selenium
 
 
