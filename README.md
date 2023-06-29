@@ -1,6 +1,6 @@
 # viktorshurygin
 
-[![Run Selenium On GitHub Action]((https://github.com/Vskliff/viktorshurygin/blob/main/.github/workflows/selenium_action.yml))]
+[![Run Selenium On GitHub Action]((https://github.com/Vskliff/viktorshurygin/blob/main/.github/workflows/selenium_action.yaml))]
 
 
 # run_tests
