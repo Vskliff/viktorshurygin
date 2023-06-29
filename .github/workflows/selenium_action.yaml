@@ -3,14 +3,14 @@ on:
   [push]
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: Windows 10
     steps:
       - name: Checking out repo
         uses: actions/checkout@v3
       - name: Setting up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11.4'
+          python-version: '3.9'
       - name: Installing package list
         run: apt list --installed
       - name: Removing previous chrome instances on runner
@@ -23,4 +23,4 @@ jobs:
         run: sudo apt-get install xvfb
 
       - name: Running the Python script
-        run: python test_site1.py
+        run: python test_our_site_3.py
